@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prataennaimjoi/hello-world/npm.git"
+    "url": "git+github.com/my-org/testgit://github.com/my-org/test.git/npm.git"
   },
   "author": "<pratannaimjoi.goodgirl@gmail.com>",
   "license": "ISC",
