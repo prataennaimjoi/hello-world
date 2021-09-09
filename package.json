@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+github.com/my-org/testgit://github.com/my-org/test.git/npm.git"
+    "url": "git+github.com/my-org/testgit://github.com/my-org/test.git"
   },
   "author": "<pratannaimjoi.goodgirl@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prataennaimjoi/hello-world-npm/issues"
+    "url": "https://github.com/prataennaimjoi/hello-world/issues"
   },
-  "homepage": "https://github.com/prataennaimjoi/hello-world-npm#readme",
+  "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
   }
