@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Codertocat/hello-world-npm.git"
+    "url": "git+https://github.com/prataennaimjoi/hello-world.git"
   },
-  "author": "Codertocat",
-  "license": "ISC",
+  "author": "<pratannaimjoi@hotmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Codertocat/hello-world-npm/issues"
+    "url": "https://github.com/prataennaimjoi/hello-world/issues"
   },
-  "homepage": "https://github.com/Codertocat/hello-world-npm#readme",
+  "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
   }
