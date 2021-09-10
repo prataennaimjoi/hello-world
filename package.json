@@ -1,24 +1,22 @@
 {
-"name": "prataennaimjoi-hello-world",
-"version": "1.0.0",
-"description": "\"A simple npm package to demonstrate GitHub Package Registry\",",
-"main": "\"main\": \"index.js\",",
-"dependencies": {},
- "devDependencies": {},
- "scripts": {
-  "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
-},
-"repository": {
- "type": "git",
-  "url": "git+https://github.com/prataennaimjoi/hello-world.git"
-},
- "keywords": [
-  "()"
-],
-"author": " <pratannaimjoi.@hotmail.com>",
-"license": "MIT",
-"bugs": {
- "url": "https://github.com/prataennaimjoi/hello-world/issues"
-},
- "homepage": "https://github.com/prataennaimjoi/hello-world#readme"
+  "name": "@codertocat/hello-world-npm",
+  "version": "1.0.2",
+  "description": "A simple npm package to demonstrate GitHub Package Registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codertocat/hello-world-npm.git"
+  },
+  "author": "Codertocat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codertocat/hello-world-npm/issues"
+  },
+  "homepage": "https://github.com/Codertocat/hello-world-npm#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
