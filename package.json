@@ -1,38 +1,24 @@
 {
-  "name": "@codertocat/hello-world-npm",
+  "name": "prataennaimjoi-hello-world",
   "version": "1.0.0",
-  "description": "A simple npm package to demonstrate GitHub Package Registry",
-  "main": "index.js",
+  "description": "\"A simple npm package to demonstrate GitHub Package Registry\",",
+  "main": "\"main\": \"index.js\",",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-   "~/.npmrc:" {
-    "//npm.pkg.github.com/:_authToken=TOKEN"
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "repository": {
     "type": "git",
-    "url": "git+github.com/my-org/testgit://github.com/my-org/test.git"
+    "url": "git+https://github.com/prataennaimjoi/hello-world.git"
   },
-  "author": "<pratannaimjoi.@hotmail.com>",
-  "license": "ISC",
+  "keywords": [
+    "()"
+  ],
+  "author": " <pratannaimjoi.@hotmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/prataennaimjoi/hello-world/issues"
   },
-  "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
-  "publishConfig": {
-  "registry":"https://npm.pkg.github.com"
-},
-  }
-    ".npmrc:@prataennaimjoi:registry=https://npm.pkg.github.com",
-  }
-}
-  "@octo-org/octo-app": {
-  "name": "@my-org/server",
-  "version": "1.0.0",
-  "description": "Server app that uses the @octo-org/octo-app package",
-  "main": "index.js",
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@octo-org/octo-app": "1.0.0"
-  }
+  "homepage": "https://github.com/prataennaimjoi/hello-world#readme"
 }
