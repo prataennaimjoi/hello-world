@@ -1,5 +1,5 @@
 {
-  "name": "prataennaimjoi-hello-world",
+ "name": "prataennaimjoi-hello-world",
   "version": "1.0.0",
   "description": "\"A simple npm package to demonstrate GitHub Package Registry\",",
   "main": "\"main\": \"index.js\",",
@@ -7,18 +7,18 @@
   "devDependencies": {},
   "scripts": {
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prataennaimjoi/hello-world.git"
-  },
+},
+ "repository": {
+  "type": "git",
+   "url": "git+https://github.com/prataennaimjoi/hello-world.git"
+ },
   "keywords": [
     "()"
-  ],
-  "author": " <pratannaimjoi.@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/prataennaimjoi/hello-world/issues"
-  },
+ ],
+ "author": " <pratannaimjoi.@hotmail.com>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/prataennaimjoi/hello-world/issues"
+ },
   "homepage": "https://github.com/prataennaimjoi/hello-world#readme"
 }
