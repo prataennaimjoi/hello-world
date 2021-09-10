@@ -20,7 +20,7 @@
     "registry":"https://npm.pkg.github.com/"
   }
 }
-  "@octo-org/octo-app: {
+  "@octo-org/octo-app"
 {
   "name": "@my-org/server",
   "version": "1.0.0",
