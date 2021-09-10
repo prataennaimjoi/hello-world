@@ -18,7 +18,8 @@
   "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-    "npmrc" "@prataennaimjoi:registry=https://npm.pkg.github.com",
+  }
+    ".npmrc:@prataennaimjoi:registry=https://npm.pkg.github.com",
   }
 }
 "@octo-org/octo-app",
