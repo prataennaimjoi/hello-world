@@ -1,5 +1,5 @@
 {
-  "name": "@codertocat/hello-world-npm",
+  "name": "@my-org/test",
   "version": "1.0.2",
   "description": "A simple npm package to demonstrate GitHub Package Registry",
   "main": "index.js",
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
   "publishConfig": {
-    "registry": "@my-org/test"
+  "registry":"https://npm.pkg.github.com"
+},
   }
     ".npmrc:@prataennaimjoi:registry=https://npm.pkg.github.com",
   }
