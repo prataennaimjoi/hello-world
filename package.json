@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+       "@prataennaimjoi:registry=https://npm.pkg.github.com/"
   }
 }
