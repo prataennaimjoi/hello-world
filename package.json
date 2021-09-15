@@ -1,5 +1,5 @@
 {
-  "name": "@prataennaimjoi/hello-world",
+  "name": "@codertocat/hello-world-npm",
   "version": "1.0.2",
   "description": "A simple npm package to demonstrate GitHub Package Registry",
   "main": "index.js",
@@ -8,17 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prataennaimjoi/hello-world.git"
+    "url": "git+https://github.com/Codertocat/hello-world-npm.git"
   },
-  "author": "<pratannaimjoi@hotmail.com>",
-  "license": "MIT",
+  "author": "Codertocat",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prataennaimjoi/hello-world/issues"
+    "url": "https://github.com/Codertocat/hello-world-npm/issues"
   },
-  "homepage": "https://github.com/prataennaimjoi/hello-world#readme",
+  "homepage": "https://github.com/Codertocat/hello-world-npm#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/",
-     "repository":"https://github.com/prataennaimjoi/hello-world",
+    "registry":"https://npm.pkg.github.com/"
   }
 }
-  
