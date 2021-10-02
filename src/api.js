@@ -43,7 +43,7 @@ class LineAPI {
     https: true
   }) {
     //options.headers['X-Line-Application'] = 'CHROMEOS\t2.1.0\tChrome_OS\t1';
-    options.headers['X-Line-Application'] = 'IOSIPAD 7.14.0 iPhone OS 10.12.0';
+    options.headers['X-Line-Application'] = 'Android 9 CPH2015 Build/PPR1.180610.011 Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36';
     //options.headers['X-Line-Application'] = 'DESKTOPMAC\t5.3.3-YOSEMITE-x64\tMAC\t10.12.0';
     this.options = options;
     this.connection =
@@ -86,7 +86,7 @@ class LineAPI {
   _qrCodeLogin() {
     this.setTHttpClient();
     return new Promise((resolve, reject) => {
-    this._client.getAuthQrcode(true, 'Alfathdirk-PC',(err, result) => {
+    this._client.getAuthQrcode(true, 'ptatan1983-PC',(err, result) => {
       const qrcodeUrl = `line://au/q/${result.verifier}`;
       qrcode.generate(qrcodeUrl,{small: true});
       console.info(`\n\nlink qr code is: ${qrcodeUrl}`)
@@ -107,7 +107,7 @@ class LineAPI {
                 this.options.headers['X-Line-Access'] = config.tokenn;
                 this.options.path = this.config.LINE_COMMAND_PATH;
                 this.setTHttpClient(this.options);
-          this.options.headers['User-Agent'] = 'Line/7.18.1';
+          this.options.headers['User-Agent'] = 'Line/11.17.1';
           this.axz = true;
           this.setTHttpClient(this.options);
           this.axz = false;
