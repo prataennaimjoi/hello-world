@@ -1,35 +1,22 @@
 {
-  "name": "hello-world-linealphatjs",
-  "version": "0.2.1",
-  "description": "LineAlphat JS",
-  "main": "./library/main.js",
+  "name": "@codertocat/hello-world-npm",
+  "version": "1.0.2",
+  "description": "A simple npm package to demonstrate GitHub Package Registry",
+  "main": "index.js",
   "scripts": {
-    "start": "npm run bot",
-    "bot": "node ./src/bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prataennaimjoi/hello-world.git"
+    "url": "git+https://github.com/Codertocat/hello-world-npm.git"
   },
-  "author": {
-    "name": "pratannaimjoi",
-    "email": "pratannaimjoi@hotmail.com"
+  "author": "Codertocat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codertocat/hello-world-npm/issues"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "qrcode-terminal": "^0.11.0",
-    "node-bignumber": "^1.2.1",
-    "utf8": "^3.0.0"
-  },
-  "dependencies": {
-    "mime": "^2.2.0",
-    "bluebird": "^3.3.4",
-    "thrift": "^0.11.0",
-    "thrift-http": "^1.0.1",
-    "unirest": "^0.5.1",
-    "request": "^2.83.0",
-    "request-promise": "^4.2.2",
-    "webp-converter": "^2.1.6",
-    "moment": "^2.18.1"
+  "homepage": "https://github.com/Codertocat/hello-world-npm#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
