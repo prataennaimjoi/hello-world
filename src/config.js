@@ -45,7 +45,7 @@ const config = {
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'Line/7.18.1'
+    'User-Agent':'Line/11.17.1'
   }
 };
 
