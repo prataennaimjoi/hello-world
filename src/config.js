@@ -36,7 +36,7 @@ const config = {
   LINE_SESSION_NAVER_URL: '/authct/v1/keys/naver',
   LINE_POST_CONTENT_URL: 'https://os.line.naver.jp/talk/m/upload.nhn',
   LINE_POST_CONTENT_URL_2ND: 'https://obs-sg.line-apps.com/talk/m/upload.nhn',
-  X_LINE_APP: 'IOSIPAD 7.18.1 iPhone OS 12.3.1',
+  X_LINE_APP: 'IOSIPAD 12.3.1 iPhone OS 12.3.1',
   //X_LINE_APP: 'CHROMEOS 1.4.13  Chrome_OS 1',
   ip: '127.0.0.1',
   version: '0.0.2',
@@ -45,7 +45,7 @@ const config = {
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'Line/7.18.1'
+    'User-Agent':'Line/11.17.1'
   }
 };
 
